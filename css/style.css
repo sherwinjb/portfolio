@@ -1,1 +1,37 @@
-
+body{
+    background-color: bisque;
+}
+h1{
+    color: black;
+}
+h1:hover{
+    color: rgb(79, 79, 245);
+}
+h2{
+    color: black;
+}
+h2:hover{
+    color: red;
+}
+li{
+    font-size: 20px;
+}
+li:hover{
+    font-size: 22px;
+}
+img{
+    width: 50%;  
+}
+img:hover{
+    transform: rotate(10deg);
+}
+.img2{
+    width: 25%;
+    
+}
+a{
+    font-size: small;
+}
+a:hover{
+    font-size: 15px;
+}
