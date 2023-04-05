@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(120, 146, 77);
+}
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 20px; 
+}
+
+.header {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.header p{
+    font-size: 20px;
+}
+
+.section {
+	text-align: center;
+	margin-bottom: 20px;
+	
+}
+
+h1 {
+	font-size: 30px;
+	margin-bottom: 0px;
+	text-decoration: underline;
+}
+h1:hover{
+    color: rgb(32, 30, 30);
+}
+img{
+    width: 300px;
+}
+img:hover{
+    width: 310px;
+    cursor:pointer;
+    transform: scale(1.05);
+    transition: 0.2s ease;
+}
+
+

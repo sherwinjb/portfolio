@@ -41,28 +41,49 @@ ul li a{
     text-transform:capitalize;
     font-size:16px;
 }
-/*----------- home ------------*/
-#home{
-    height:80vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-direction:column;
-    color:#91a3ad;
-    text-transform:capitalize;
+.container{
+    display: flex;
+    justify-content:space-between;
 }
-#home h1{
-    font-size:3rem;
+.card{
+    background-color: #2a2933;
+    width: 300px;
+    margin: 10px;
+    border-radius: 15px;
 }
-#home h3{
-    font-size:2rem;
+.card:hover{
+    cursor:pointer;
+    transform: scale(1.05);
+    transition: 0.2s all ease;
 }
-#home span{
-    color:whitesmoke;
+ .card-image{
+    background-color: #70768f;
+    height: 300px;
+    width: 100;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    
 }
-#home a{
-    color:#f5f9fc;
-    background:#5b6870;
-    padding:15px 50px;
-    margin-top:40px;
+.card p{
+    color: aliceblue;
+    text-align: center;
+}
+.img a{
+    text-decoration: none;
+    color: #f5f2f2;
+    font-size: 20px;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+}
+h1:hover {
+    transform: rotate(0deg);
+    transition: 0.2s all ease;
+    cursor: pointer;
+}
+a:hover{
+    transition: 2s all ease;
+    transform: rotate(0deg);
+    cursor: pointer;
 }

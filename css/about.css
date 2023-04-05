@@ -22,6 +22,7 @@ body{
     margin-left:100px;
     text-transform:capitalize;
     color:#dfe2e7;
+    ;
 }
 nav{
     background:#6a7580;
@@ -41,28 +42,39 @@ ul li a{
     text-transform:capitalize;
     font-size:16px;
 }
-/*----------- home ------------*/
-#home{
-    height:80vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-direction:column;
-    color:#91a3ad;
-    text-transform:capitalize;
+#section{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
 }
-#home h1{
-    font-size:3rem;
+#sction h1{
+    margin: 55px;
+    color:#808c94;
+
 }
-#home h3{
-    font-size:2rem;
+.section{
+    display: flex;
 }
-#home span{
-    color:whitesmoke;
+.section img{
+    width: 350px;
+    height: 340px;
+    padding: 0px 30px;
 }
-#home a{
-    color:#f5f9fc;
-    background:#5b6870;
-    padding:15px 50px;
-    margin-top:40px;
+.name{
+    text-align: center;
+    padding: 10px;
+}
+.name h2{
+    font-size: 50px;
+    color:#c6d9e6;
+}
+.name p{
+    font-size: 1.2rem;
+    color:#808c94;
+    
+}
+.header{
+    text-align: center;
+    text-transform: capitalize;
+    color: #dfe2e7;
 }
