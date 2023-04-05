@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+    text-decoration:none;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background:url("images/brian.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:100vh;
+    width:100vw;
+}
+#logo{
+    line-height:100px;
+    font-weight:700;
+    font-size:2rem;
+    margin-left:100px;
+    text-transform:capitalize;
+    color:#dfe2e7;
+}
+nav{
+    background:#6a7580;
+    height:100px;
+}
+ul{
+    float:right;
+    line-height:100px;
+    margin-right:70px;
+}
+ul li{
+    display:inline-block;
+    margin-right:30px;
+}
+ul li a{
+    color:#e3eef5;
+    text-transform:capitalize;
+    font-size:16px;
+}
+/*----------- home ------------*/
+#home{
+    height:80vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    color:#91a3ad;
+    text-transform:capitalize;
+}
+#home h1{
+    font-size:3rem;
+}
+#home h3{
+    font-size:2rem;
+}
+#home span{
+    color:whitesmoke;
+}
+#home a{
+    color:#f5f9fc;
+    background:#5b6870;
+    padding:15px 50px;
+    margin-top:40px;
+}

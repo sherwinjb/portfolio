@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(71, 87, 109);
+}
+.container {
+
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.header {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.section {
+	text-align: center;
+	margin-bottom: 30px;
+	
+	
+}
+
+h1 {
+	font-size: 20px;
+	margin-bottom: 10px;
+	text-decoration: underline;
+}
+h1:hover{
+	color: gray;
+}
+
+h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+	color: black;
+}
+h2:hover{
+	color: darkgray;
+}
+
+p {
+	font-size: 15px;
+	margin-bottom: 10px;
+	text-decoration: none;
+}

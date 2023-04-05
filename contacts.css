@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+    text-decoration:none;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background:url("images/brian.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:100vh;
+    width:100vw;
+}
+#logo{
+    line-height:100px;
+    font-weight:700;
+    font-size:2rem;
+    margin-left:100px;
+    text-transform:capitalize;
+    color:#dfe2e7;
+}
+nav{
+    background:#6a7580;
+    height:100px;
+}
+ul{
+    float:right;
+    line-height:100px;
+    margin-right:70px;
+}
+ul li{
+    display:inline-block;
+    margin-right:30px;
+}
+ul li a{
+    color:#e3eef5;
+    text-transform:capitalize;
+    font-size:16px;
+}
+.container{
+    display: flex;
+    justify-content:space-between;
+}
+.card{
+    background-color: #2a2933;
+    width: 300px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card:hover{
+    cursor:pointer;
+    transform: scale(1.05);
+    transition: 0.2s all ease;
+}
+ .card-image{
+    background-color: #70768f;
+    height: 300px;
+    width: 100;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    
+}
+.card p{
+    color: aliceblue;
+    text-align: center;
+}
+.img a{
+    text-decoration: none;
+    color: #f5f2f2;
+    font-size: 20px;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+}
+h1:hover {
+    transform: rotate(0deg);
+    transition: 0.2s all ease;
+    cursor: pointer;
+}
+a:hover{
+    transition: 2s all ease;
+    transform: rotate(0deg);
+    cursor: pointer;
+}
